@@ -1,7 +1,7 @@
 # reSmush.it Image Optimizer Python package
 
 [![Downloads](https://static.pepy.tech/badge/resmushit)](https://pepy.tech/project/resmushit)
-  
+![Tests](https://github.com/hemansah/resmushit/actions/workflows/tests.yaml/badge.svg?branch=master)  
 
 ## Project Description
 
