@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="resmushit",
-    version="1.1.0",
+    version="1.1.1",
     description="A wrapper for resmush.it API",
     long_description=pathlib.Path("README.md").read_text(encoding='utf-8'),
     long_description_content_type="text/markdown",
