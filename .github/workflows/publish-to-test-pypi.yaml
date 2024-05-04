@@ -13,7 +13,7 @@ on:
     types: [published]
     branches:
       - dev
-      
+
 permissions:
   contents: read
 
@@ -37,6 +37,5 @@ jobs:
     - name: Publish package on TestPyPi
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        user: __token__
         password: ${{ secrets.PYPI_API_TOKEN_TEST }}
         repository-url: https://test.pypi.org/legacy/
