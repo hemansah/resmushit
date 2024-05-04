@@ -1,17 +1,19 @@
 import pathlib
 import setuptools
+import resmushit
 
 setuptools.setup(
     name="resmushit",
-    version="1.0.0",
+    version=resmushit.__version__,
     description="A wrapper for resmush.it API",
     long_description=pathlib.Path("README.md").read_text(encoding='utf-8'),
     long_description_content_type="text/markdown",
     url="https://resmush.it/",
-    author="Hemant Sah",
+    author=resmushit.__author__,
     author_email="hemantsah18@gmail.com",
     maintainer="Hemant Sah",
-    license="MIT",
+    download_url="https://github.com/hemansah/resmushit",
+    license=resmushit.__license__,
     project_urls={
         "Homepage":"https://resmush.it/",
         "Documentation":"https://github.com/hemansah/resmushit/blob/master/README.md",
@@ -33,7 +35,8 @@ setuptools.setup(
         "Topic :: Utilities",
     ],
     python_requires=">=3.6,<=3.12",
-    install_requires=['urllib3', 'colorama'],
+    install_requires=['urllib3', 'filetype'],
     packages=setuptools.find_packages(),
     include_package_data=True,
+    # test_requires=['pytest']
 )

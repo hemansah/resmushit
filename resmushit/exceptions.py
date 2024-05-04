@@ -12,3 +12,7 @@ class ImageURLNotFoundException(Exception):
 
 class ImagePathNotFoundException(Exception):
     pass
+
+
+class ImageExtensionNotFoundException(Exception):
+    pass

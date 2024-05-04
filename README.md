@@ -1,22 +1,21 @@
 # reSmush.it Image Optimizer Python package
 
+[![Downloads](https://static.pepy.tech/badge/resmushit)](https://pepy.tech/project/resmushit)
   
 
 ## Project Description
 
 Python3 wrapper for resmush.it API to optimize image file size.
 
-  
+    
 
 [resmush.it](https://resmush.it/) Image Optimizer allows you to use free Image optimization based on reSmush.it API.
 
 reSmush.it provides image size reduction based on several algorithms. The API accept JPG, PNG and GIF files up to 5MB.
 
-  
+
 
 ## Installation
-
-  
 
 1. Install using pip3:
 

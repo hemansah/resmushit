@@ -3,3 +3,4 @@ venv/
 dist/
 resmushit.egg-info/
 __pycache__/
+tests/fixtures/
